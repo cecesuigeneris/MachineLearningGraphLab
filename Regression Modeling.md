@@ -3,7 +3,7 @@
 Key concepts:
   - Residual sum of squares (RSS)
   - Overfitting via training/test split
-  - Regressio ML block diagram
+  - Regression ML block diagram
 
 ## Predict House Prices Tutorial
 Codes below utilize graphlab create and python language.
