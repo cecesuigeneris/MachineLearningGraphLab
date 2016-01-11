@@ -1,0 +1,11 @@
+##Calling graphlab create
+import graphlab
+
+##Load house sales data
+sales = graphlab.SFrame('home_data.gl/')
+
+##Exploring data for housing sales
+graphlab.canvas.set_target('ipynb')      ##print and view in this notebook instead of in canvas
+sales.show(view="Scatter Plot", x="sqft_living", y="price"
+
+
