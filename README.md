@@ -14,3 +14,11 @@ Note: The course is divided into two parts. Each week a new case study is invest
 * Document Retrieval - Clustering 
 * Product Recommendation - Matrix Factorization 
 * Visual Product Reccomender - Deep Learning
+
+
+## Regression Specialization (6 Weeks)
+
+Note: This course focuses on implementing machine learning algorithms into regression models.
+
+* Simple Linear Regression
+* 
