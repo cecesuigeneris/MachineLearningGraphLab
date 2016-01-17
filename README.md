@@ -21,4 +21,6 @@ Note: The course is divided into two parts. Each week a new case study is invest
 Note: This course focuses on implementing machine learning algorithms into regression models.
 
 * Simple Linear Regression
+* Multiple Regression
+* Assess Performance - Bias-Variance Tradeoff
 * 
