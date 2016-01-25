@@ -1,0 +1,43 @@
+# Assessing Performance: Bias-Variance Tradeoff
+
+## Key Concepts:
+* Loss function (cost of using w hat at x when y is true): L(y, fw(x))
+  > Absolute error: L(y, fw(x)) = |y - fw(x)|
+  > Sqaured error: L(y, fw(x)) = (y - fw(x))^2
+  
+* Training error (average error of loss function)
+
+  > e.g. use sqaured error as loss function, training error (w hat) = RMSE = ave.sum(yi - fw(x)^2
+  > training error decreases with increased model complexity
+
+* Generalization/true error
+
+  > Ex,y[loss function] = average over all possible (x,y) pairs weighted by how likely each is
+  > cannot compute because it is impossible to look at all possible dataset
+  > error decreases and increases with increasing model complexity
+  
+* Test error (approx generalization error)
+
+  > ave.sum[loss function] based on testset, however [loss function] fit fw(x) using training data
+  > fluctuated along generalization error plot
+  > overfitting if 1) training error w' > w hat, 2) true error w' < w hat
+
+* Training set/test set split
+* 3 sources of errors: noise (irreducible), bias (low complexity, high bias), variance (low complexity, low variance)
+
+  > Bias-variance tradeoff: MSE (mean sqaured error) = bias^2 + variance <-- cannot compute
+
+* Error vs amount of data (for a fixed model complexity)
+
+  > in the limit, true error = training error
+
+## Implementing ML algorithms to build up Multiple Regression model using Gradient Descent
+
+### Convert to Numpy Array
+
+```python
+import graphlab
+sales = graphlab.SFrame('kc_house_data.gl/')
+import numpy as np
+
+```
