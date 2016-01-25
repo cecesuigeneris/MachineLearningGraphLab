@@ -23,4 +23,5 @@ Note: This course focuses on implementing machine learning algorithms into regre
 * Simple Linear Regression
 * Multiple Regression
 * Assess Performance - Bias-Variance Tradeoff
+* Ridge Regression
 * 
